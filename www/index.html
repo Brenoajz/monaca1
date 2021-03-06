@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="components/loader.js"></script>
+  <script src="components/acao.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="Topo">
+		<h3 id="Topo2">Av. 1 de Maio, numero 49.</h3>
+	</div>
+		<div id="entrega">
+			<img src="img/2.jpg" id="imagem1">
+				<div id="numero">
+					<i class="fas fa-phone" id="phone"></i>
+					<h5 id="Andrey">(13) 4563-2334</h5>
+				</div>
+				<div id="numero1">
+					<i class="fas fa-phone" id="phone"></i>
+					<h5 id="Andrey">(13) 4563-2334</h5>
+				</div>
+		</div>
+		<div id="retangulo">
+			<div id="combos">
+				<div class="row" id="select">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Combos</option>
+                    <option value="1">Combo 1</option>
+                    <option value="2">Combo 2</option>
+                  </select>
+            </div>
+				<div id="fotopizza">
+					<img src="img/1.png" id="imagem2">
+					<h3 id="txtcombo">Combo 1</h3>
+					<h2 id="txtvalor">R$75,00</h2>
+					<img src="img/4.jfif" id="imagem3">
+					<h3 id="txtcombo">Combo 2</h3>
+					<h2 id="txtvalor">R$57,00</h2>
+					<button type="button" data-toggle="modal" data-target="#exampleModal" id="carrinho">
+						Carrinho
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Carrinho</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <!-- tabela para acrescentar cada sessão -->
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope=""></th>
+                                <th scope="">Produto</th>
+                                <th scope="">Preço R$</th>
+                                <th scope="">QTD</th>
+                                <th scope="">SubTotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <!-- criar linha na tabela / organização -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Combo 1</td>
+                            <td>R$ 75,00</td>
+                            <td><input id="1" type="number" data-preco="75" data-id="1" value="0" class="sizebox" onchange="calcularPreco($(this))"></td>
+                            <td id="sub1" data-sub="0">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Combo 2</td>
+                            <td>R$ 57,00</td>
+                            <td><input id="2" type="number" data-preco="57" data-id="2" value="0" class="sizebox" onchange="calcularPreco($(this))"></td>
+                            <td id="sub2" data-sub="0">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <td class="text-right" colspan="3">TOTAL:</td>
+                            <td id="total">R$ 0,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close">Fechar</button>
+                <button type="button" class="btn btn-primary" id="finish">Finalizar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

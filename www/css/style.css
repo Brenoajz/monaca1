@@ -1,0 +1,207 @@
+/**/
+#Andrey {
+width: 228px;
+height: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+}
+
+#imagem1 {
+	
+width: 217px;
+height: 202px;
+padding-top: 34px; 
+padding-left: 37px;
+
+	}
+
+#Topo {
+	
+width: 615px;
+height: 46px;
+
+background: #ABABAB;
+}
+
+#Topo2 {
+align-items: center;
+justify-content: center;
+width: 288px;
+height: 27px;
+margin: 0 auto;
+padding-top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+}
+
+#entrega {
+width: 615px;
+height: 270px;
+
+background: #D2D63B;
+}
+
+#entrega1 {
+justify-content: flex-end;
+width: 185px;
+height: 30px;
+background: #C4C4C4;
+}
+
+#numero {
+	display: flex;
+    align-items: center;
+    margin-left: 50%;
+    background-color: #C4C4C4;
+    height: 4vh;
+    margin-top: -30%;
+    width: 10vw;
+}
+
+#phone {
+	margin-right: 5px;
+}
+
+#numero1 {
+	display: flex;
+    align-items: center;
+    margin-left: 50%;
+    background-color: #C4C4C4;
+    height: 4vh;
+    margin-top: 5%;
+    width: 10vw;
+}
+
+#retangulo {
+width: 615px;
+height: 492px;
+
+background: #FFFFFF;
+}
+
+#combos {
+
+width: 456px;
+height: 50px;
+left: 80px;
+top: 18px;
+margin-left: 10vw;
+
+}
+
+#combos1 {
+width: 325px;
+height: 34px;
+left: 145px;
+top: 34px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+margin-top: -5%;
+
+}
+
+#seta {
+width: 32px;
+height: 34px;
+left: 438px;
+top: 34px;
+margin-left: 50%;
+margin-top: -5%
+}
+
+#fotopizza {
+width: 325px;
+height: 218px;
+left: 145px;
+top: 88px;
+margin-left: -50px;
+margin-top: 50px;
+
+}
+
+#imagem2 {
+width: 325px;
+height: 218px;
+left: 145px;
+top: 88px;
+
+}
+
+	#txtcombo {
+		width: 105px;
+height: 31px;
+left: 255px;
+top: 315px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+margin: 0 auto;
+	}
+
+#txtvalor {
+width: 101px;
+height: 29px;
+left: 255px;
+top: 346px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+margin: 0 auto;
+margin-top: 5px;
+}
+
+#carrinho {
+	width: 267px;
+height: 52px;
+left: 174px;
+top: 395px;
+border-radius: 10px;
+border:  #6FC547;
+background: #6FC547;
+margin-top: 15px;
+margin-left: 30px;
+font-size: 25px;
+}
+#imagem3 {
+	width: 325px;
+height: 218px;
+left: 145px;
+top: 88px;
+
+}
+.sizeconteiner{
+    width: 105px;
+}
+.sizebox{
+    width: 50px;
+}
+
+#select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45%;
+}
+.form-select{
+    margin-top: 5%;
+    width: 45vw;
+
+}
